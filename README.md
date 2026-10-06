@@ -1,4 +1,4 @@
-Obxectivo:  instalar o servidor DNS BIND9 nunha máquina virtual con Debian 12. Podes descargar un esqueleto deste repo de github
+Obxectivo:  instalar o servidor DNS BIND9 nunha máquina virtual con Debian 12. Podes descargar un esqueleto deste repo de github 
 
 
 Podes empregar contedores, con debian 13 e un único interface de rede
