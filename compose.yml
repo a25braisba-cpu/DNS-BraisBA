@@ -14,7 +14,15 @@ services:
       rededns:
         ipv4_address: 192.168.20.10
 
-        
+  mandalorian:
+    build: dnsserver
+    hostname: mandalorian
+    command: -g -4
+    volumes:
+      - ./mandalorian/named.conf.options:/etc/bind/named.conf.options
+    networks:
+      rededns:
+        ipv4_address: 192.168.20.8    
       
   cliente:
     build: cliente
